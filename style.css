@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+html {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+header {
+  padding: 10px 20px 10px 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+header-center {
+  font-size: large;
+  font-weight: bold;
+  margin: 1%;
+}
+header .nav-links {
+  margin: 10px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  max-width: 50vw;
+  justify-content: space-between;
+}
+header .nav-links a {
+  margin: 5px 20px 5px 20px;
+  text-decoration: none;
+  color: black;
+}
+header .nav-links a:visited {
+  text-decoration: none;
+}
+header .nav-links a:hover {
+  font-weight: 500;
+}
+header:hover {
+  box-shadow: 0 2px 20px rgba(255, 255, 255, 0.363);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+body .container {
+  width: 100vw;
+  padding: 2vh 0 2vh 0;
+  margin: 30vh 0 0 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+}
+body .container:hover {
+  border-radius: 50px;
+  transition-duration: 1.5s;
+}
+body .container.color {
+  color: rgba(0, 0, 0, 0);
+}
+
+.btn-hero {
+  text-align: center;
+  position: relative;
+  padding: 10px 50px 10px 50px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgb(53, 53, 53);
+  margin: 2vh 40vw 2vh 40vw;
+  font-size: large;
+}
+.btn-hero:hover {
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 5px;
+  border: 0px;
+  transition-duration: 1.5s;
+}/*# sourceMappingURL=style.css.map */
