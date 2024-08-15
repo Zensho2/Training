@@ -1,2 +1,2 @@
-# AKindustries
-First repo
+# AK Zensho2
+Training repo
