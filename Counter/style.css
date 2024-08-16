@@ -6,6 +6,10 @@ html {
   text-decoration: none;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   padding: 10px 20px 10px 20px;
   background-color: white;
@@ -14,8 +18,9 @@ header {
   justify-content: space-between;
   align-items: baseline;
 }
-header-center {
-  font-size: large;
+header .nav-center {
+  font-size: 200%;
+  letter-spacing: 5px;
   font-weight: bold;
   margin: 1%;
 }
@@ -41,36 +46,36 @@ header:hover {
   box-shadow: 0 2px 20px rgba(255, 255, 255, 0.363);
 }
 
-body {
-  margin: 0;
-  padding: 0;
-}
-body .container {
-  width: 100vw;
-  padding: 2vh 0 2vh 0;
-  margin: 30vh 0 0 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-  text-align: center;
-}
-body .container:hover {
-  border-radius: 50px;
-  transition-duration: 1.5s;
-}
-body .container.color {
-  color: rgba(0, 0, 0, 0);
+h2 {
+  font-size: 400%;
+  letter-spacing: 5px;
+  font-weight: bold;
+  margin-bottom: 5%;
 }
 
-.btn-hero {
+.counter {
+  margin: 0;
+  padding: 8% 30% 8% 30%;
+}
+.counter-block {
+  padding: 5% 10% 5% 10%;
   text-align: center;
-  position: relative;
-  padding: 10px 50px 10px 50px;
+}
+.counter-block .block-count {
+  font-size: 500%;
+}
+.counter-block .block-btn {
+  padding: 5%;
+}
+.counter-block .block-btn button {
+  padding: 8px 25px 8px 25px;
+  margin: 0 5px 0 5px;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid rgb(53, 53, 53);
-  margin: 2vh 40vw 2vh 40vw;
+  border-radius: 2px;
   font-size: large;
 }
-.btn-hero:hover {
+.counter-block .block-btn button:hover {
   font-weight: 400;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
